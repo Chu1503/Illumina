@@ -1,0 +1,43 @@
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--violet);
+  border-radius: 5px;
+}
+
+/* SCROLL BAR */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--navy);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --navy: #080118;
+  --violet: #a2229d;
+  --darkblue: #29009e;
+  --lightblue: #01cdfa;
+  --cream: #f3f9f9;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}

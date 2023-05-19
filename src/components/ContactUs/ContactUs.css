@@ -1,0 +1,10 @@
+.contactUs {
+  min-height: 60vh;
+  width: 100%;
+}
+
+.title-contact-us {
+    color: var(--cream);
+    text-align: center;
+  }
+  

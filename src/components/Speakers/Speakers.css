@@ -1,0 +1,9 @@
+.speakers {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title-speakers {
+    color: var(--cream);
+    text-align: center;
+  }

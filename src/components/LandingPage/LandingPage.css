@@ -1,0 +1,13 @@
+.landingPage {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('../../assets/LandingPageTest.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.title-landing {
+    color: var(--cream);
+    text-align: center;
+  }
+

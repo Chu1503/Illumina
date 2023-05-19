@@ -1,0 +1,9 @@
+.sponsors {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title-sponsors {
+    color: var(--cream);
+    text-align: center;
+  }

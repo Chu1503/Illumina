@@ -1,0 +1,19 @@
+.aboutIllumina {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title-about-illumina {
+    color: var(--cream);
+    text-align: center;
+  }
+
+.Logo{
+  display: block;
+  margin: 0 auto;
+}
+
+.content-about-illumina{
+  color: var(--cream);
+  text-align: center;
+}
