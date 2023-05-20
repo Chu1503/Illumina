@@ -1,9 +1,44 @@
 .prizes {
   min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-prizes {
-    color: var(--cream);
-    text-align: center;
+  color: var(--cream);
+  text-align: center;
   }
+
+.medals{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.second {
+  width: 15vw;
+  height: 15vw;
+  margin: 0 20px;
+  border-radius: 50%;
+  background: #888f91;
+  background-image: url('../../assets/SECOND.png');
+}
+
+.first {
+  width: 15vw;
+  height: 15vw;
+  margin: 0 20px;
+  border-radius: 50%;
+  background: #ac6814;
+}
+
+.third {
+  width: 15vw;
+  height: 15vw;
+  margin: 0 20px;
+  border-radius: 50%;
+  background: #a1441250;
+}

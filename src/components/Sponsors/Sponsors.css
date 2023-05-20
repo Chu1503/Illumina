@@ -1,9 +1,28 @@
 .sponsors {
   min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-sponsors {
     color: var(--cream);
     text-align: center;
   }
+
+.sponsor-cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* To adjust the position of the cards on the section */
+}
+
+.sponsor-tilt {
+  width: 15vw;
+  height: 15vw;
+  background: #a2229d50;
+  margin: 0 20px;
+  border-radius: 50%;
+}
