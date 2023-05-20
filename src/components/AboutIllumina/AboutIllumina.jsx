@@ -11,15 +11,16 @@ const AboutIllumina = () => {
       </div>
       <div className='content-about-illumina'>
         <p>
-        Lorem ipsum dolor sit amet. Eum architecto dolorum vel quaerat laboriosam ut nemo maiores et quam voluptatem 
-        et commodi placeat. Aut quia dolorem quo iste accusantium et quas accusamus ab animi dicta ab magni consequatur. 
-        Et alias molestias qui velit voluptatem et velit atque est voluptas quaerat non sint vitae? Qui ratione dolore 
-        est quaerat officiis a obcaecati sequi eos voluptate rerum est tempora obcaecati id commodi ipsa vel ducimus quia. 
-        Sed fugiat deserunt est excepturi unde aut suscipit sunt ut dolorum debitis ut blanditiis dolor est officiis sapiente. 
-        Eum voluptas dicta aut consequatur nemo ut nisi ducimus 33 illum eligendi sed error consequatur. Vel galisum maiores
-        et distinctio adipisci quo accusantium necessitatibus. Qui enim rerum ab Quis corrupti non mollitia error qui saepe 
-        vitae eos itaque velit. Ut rerum vero officia architecto in necessitatibus magnam nulla rerum quo delectus architecto.
-        Aut ducimus officiis aut labore illum est ratione voluptas mister chu.
+        Illumina is a prominent hackathon that brings together the brightest minds from throughout the university
+        to address some of the world's most critical issues.Conducted by VIT Vellore's IE(I) Student Chapter,
+        the hackathon aims to encourage students and young professionals to be creative, innovative, and collaborative.
+        During the 36-hour event, participants will work in groups to develop innovative solutions to real-world problems
+        using cutting-edge technology and tools. At the end of the event, teams will present their ideas to a panel of judges, 
+        who will evaluate them based on their creativity, feasibility, and impact. The winning team will receive monetary award 
+        as well as the opportunity to present their work in front of a larger audience. By contributing to Illumina, you can assist 
+        the future generation of innovators and entrepreneurs while also positioning your company as a leader in sustainability 
+        and social responsibility. Don't miss out on this once-in-a-lifetime opportunity to mingle with a diverse group of students,
+        young professionals, and industry executives.  Join us for this premiere event and help us illuminate the way to a brighter future.
         </p>
       </div>
       </div>

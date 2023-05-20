@@ -1,7 +1,6 @@
 .aboutIllumina {
   min-height: 100vh;
   width: 100%;
-  background-color: blue;
 }
 
 .title-about-illumina {
@@ -15,6 +14,9 @@
 }
 
 .content-about-illumina{
+  margin: 1.5rem;
   color: var(--cream);
-  text-align: center;
+  text-align: justify;
+  justify-content: center;
+  font-size: x-large;
 }

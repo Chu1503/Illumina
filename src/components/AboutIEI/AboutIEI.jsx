@@ -10,11 +10,16 @@ const AboutIEI = () => {
       <h1 className='title-about-iei'>ABOUT IE(I)</h1>
       <div className="container">
         <Carousel>
-          <img src='./images/1_vedikaglitch.png' alt='' style={{width: "100%", height: "100%"}}></img>
-          <img src='./images/6_arishaglitch.png' alt='' style={{width: "100%", height: "100%"}}></img>
-          <img src='./images/5_chuglitch.png' alt='' style={{width: "100%", height: "100%"}}></img>
-          <img src='./images/7_sanskritiglitch.png' alt='' style={{width: "100%", height: "100%"}}></img>
-          <img src='./images/10_shreyaglitch.png' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/1.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/2.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/3.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/4.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/5.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/6.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/7.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/8.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/9.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
+          <img src='./images/10.jpeg' alt='' style={{width: "100%", height: "100%"}}></img>
         </Carousel>
       </div>
       <div className='content-about-iei'>
