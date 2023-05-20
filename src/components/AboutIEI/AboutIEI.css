@@ -1,9 +1,25 @@
 .aboutIEI {
   min-height: 100vh;
   width: 100%;
+  background-color: aqua;
 }
 
 .title-about-iei {
     color: var(--cream);
     text-align: center;
   }
+
+.content-about-iei{
+  color: var(--cream);
+  text-align: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+}
