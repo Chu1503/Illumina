@@ -1,7 +1,6 @@
 import './App.css';
 import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs } from "./components"
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-
 // function App() {
 //   return (
 //     <div className='AllComponenets'>
@@ -16,9 +15,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 //      </div>
 //   );
 // }
-
 // export default App;
-
 function App() {
   return (
     <div className="App">
@@ -86,8 +83,6 @@ function App() {
 
       </Parallax>
     </div>
- 
-
   );
 }
 
