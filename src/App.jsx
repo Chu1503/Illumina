@@ -1,5 +1,5 @@
 import './App.css';
-import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs } from "./components"
+import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs, Navbar } from "./components"
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // function App() {
 //   return (
@@ -21,10 +21,10 @@ function App() {
     <div className="App">
       <Parallax pages={9} style={{ top: '0', left: '0' }} class="animation">
 
+        <Navbar></Navbar>
         <ParallaxLayer offset={0} speed={0.35}>
           <div class="animation_layer parallax" id="auroraB"></div>
         </ParallaxLayer>
-
         <ParallaxLayer offset={0} speed={0.45}>
           <div class="animation_layer parallax" id="front6"></div>
         </ParallaxLayer>

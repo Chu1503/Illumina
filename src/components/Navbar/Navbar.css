@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Right-align the navbar */
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block; /* Change display property to inline-block */
+    color: #F3F9F9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
