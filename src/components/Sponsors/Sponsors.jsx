@@ -18,14 +18,10 @@ const Sponsors = () => {
       <div className='sponsors'>
         <h1 className='title-sponsors'>SPONSORS</h1>
         <div className="sponsor-cards">
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" data-tilt data-tilt-glare data-tilt-max="10"></div>
+          <div className="sponsor-tilt" id='orom' data-tilt data-tilt-glare></div>
+          <div className="sponsor-tilt" id='yoode' data-tilt data-tilt-glare></div>
+          <div className="sponsor-tilt" id='aroma' data-tilt data-tilt-glare></div>
+          <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
         </div>
       </div>
     </header>
