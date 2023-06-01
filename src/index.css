@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 /* SCROLL BAR */
 
 ::-webkit-scrollbar {
@@ -14,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Russo One', sans-serif;
   letter-spacing: 0.2em;
   line-height: 1.5;
   background-color: var(--navy);
