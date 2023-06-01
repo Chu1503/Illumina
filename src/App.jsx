@@ -1,27 +1,11 @@
 import './App.css';
 import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs, Navbar} from "./components"
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-// import ModelViewer from './components/ModelViewer/ModelViewer';
 
-// function App() {
-//   return (
-//     <div className='AllComponenets'>
-//     <LandingPage />
-//     <AboutIllumina />
-//     <AboutIEI />S
-//     <Speakers />
-//     <Timeline />
-//     <Prizes />
-//     <Sponsors />
-//     <ContactUs /> 
-//      </div>
-//   );
-// }
-// export default App;
 function App() {
   return (
     <div className="AllComponents">
-      <Parallax pages={9} style={{ top: '0', left: '0' }} class="animation">
+      <Parallax pages={8} style={{ top: '0', left: '0' }} class="animation">
 
         <Navbar></Navbar>
 

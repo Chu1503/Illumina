@@ -15,7 +15,7 @@ const AboutIEI = () => {
           <img src='./images/3.png' alt='' style={{width: "100%", height: "100%"}}></img>
           <img src='./images/4.png' alt='' style={{width: "100%", height: "100%"}}></img>
           <img src='./images/5.png' alt='' style={{width: "100%", height: "100%"}}></img>
-        </Carousel>
+        </Carousel> 
       </div>
       <div className='content-about-iei'>
         <p>
