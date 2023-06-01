@@ -27,7 +27,11 @@ function App() {
 
         <div className='title'>
           <h1 id='title-text'>ILLUMINA</h1>
+          <a href="https://illumina23.devpost.com/" target="_blank" rel="noopener noreferrer" class="register">
+            <button className='curved-button'>Register Now</button>
+          </a>
         </div>
+        
 
         <ParallaxLayer offset={0} speed={0.01}>
           <div class="animation_layer parallax" id="auroraB"></div>

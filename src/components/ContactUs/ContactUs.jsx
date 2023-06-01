@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <header>
     <div className='contactUs'>
-        <h1 className='title-contact-us'>Reach Out To Us!</h1>
+        {/* <h1 className='title-contact-us'>Reach Out To Us!</h1> */}
         <div className="links">
           <a href="https://vit.ac.in/" target="_blank" rel="noopener noreferrer" class="left-image"></a>
           <div className="social">

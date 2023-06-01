@@ -45,3 +45,11 @@ code {
   max-width: 1080px;
   margin: 0 auto;
 }
+
+
+/* MEDIA SCREEN */
+@media only screen and (max-width: 468px) { 
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}

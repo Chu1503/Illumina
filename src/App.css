@@ -57,18 +57,50 @@
 
 .title{
     color: var(--cream);
-    text-align:center;
-    text-justify:auto;
-    text-shadow: none;
-}
-
-#title-text{
-    position: right;
-    font-size:7rem;
-    font-weight:700;
-    color: cornsilk;
-    display: inline-block;
     text-align: center;
-    opacity: 1;
+    text-justify: auto;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+#title-text {
+    font-size: 7rem;
+    font-weight: 700;
+    color: cornsilk;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.80;
+    margin-bottom: -10px;
+  }
+
+.curved-button {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--violet);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    opacity: 0.95;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+.register{
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* MEDIA SCREEN */
+@media only screen and (max-width: 468px) { 
+    #title-text{
+        font-size: 17vw;
+    }
+  }

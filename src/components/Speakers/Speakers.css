@@ -1,5 +1,5 @@
 .speakers {
-  min-height: 80vh;
+  min-height: 90vh;
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
@@ -38,4 +38,36 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 468px) {  
+  .speakers {
+    min-height: 80vh;
+  }
+
+  .title-speakers {
+    color: var(--lightblue);
+    text-align: center;
+    font-size: 275%;
+    }
+  
+  .cards{
+    display: grid;
+    grid-template-columns:70%;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    height: 60vh; /* To adjust the position of the cards on the section */
+  }
+  .tiltcard{
+    width: 50vw;
+    height: 25vh;
+    background: rgba(255,255,255,0.25);
+    margin: 0 20px;
+    margin: 0px ;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.14);
+  }
 }

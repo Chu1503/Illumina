@@ -1,5 +1,5 @@
 .prizes {
-  min-height: 85vh;
+  min-height: 115vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,6 @@
   color: var(--lightblue);
   text-align: center;
   font-size: 4rem;
-  font-family: 'Rubik Mono One', sans-serif;
   }
 
 .big-prizes, .small-prizes{
@@ -61,8 +60,67 @@ img{
   line-height: 1.25;
 }
 
-@media screen and (max-width: 426px) {
-  .first, .second, .third {
-    font-size: small; /* Adjust the font size as needed */
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 468px) {  
+  .prizes {
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .title-prizes {
+  color: var(--lightblue);
+  text-align: center;
+  /*font-size: 3.25rem;*/
+  font-size: 275%;
+  }
+  
+  .big-prizes, .small-prizes{
+    /*display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;*/
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    margin: 5px 0px;
+  }
+  
+  .gap{
+    height: 4vh;
+  }
+  
+  .first, .second, .third {
+    width: 20vw;
+    height: 20vw;
+    margin: 0 20px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cream);
+    font-size: medium;
+  }
+  .uiux, .pitch, .freshers {
+    width: 25vw;
+    height: 25vw;
+    margin: 0 20px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cream);
+    font-size: small;
+  }
+
 }
+

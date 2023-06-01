@@ -1,15 +1,15 @@
 .contactUs {
-  min-height: 33vh;
+  min-height: 10vh;
   width: 100%;
-  background-color: black;
+  background-color: #57024148;
 }
 
-.title-contact-us {
+/* .title-contact-us {
   color: var(--lightblue);
   text-align: left;
   font-size: 4rem;
   padding-left: 150px;
-  }
+  } */
 
   .links, .social {
     display: flex;
@@ -77,3 +77,13 @@
     height: 35px;
     cursor: pointer;
   }
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 468px) {
+    .title-contact-us{
+        color: var(--lightblue);
+        text-align: center;
+        font-size: 275%;
+        }
+      }
