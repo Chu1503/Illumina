@@ -1,9 +1,10 @@
 .timeline {
-  min-height: 110vh;
+  min-height: 80vh;
   width: 100%;
-  background-image: url('../../assets/timeline.png');
-  background-size: cover;
+  background-image: url('../../assets/timelinealt.png');
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title-timeline {
