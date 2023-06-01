@@ -7,8 +7,9 @@
 }
 
 .title-prizes {
-  color: var(--cream);
+  color: var(--lightblue);
   text-align: center;
+  font-size: 4rem;
   }
 
 .medals{

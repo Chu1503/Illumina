@@ -1,18 +1,21 @@
 .speakers {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .title-speakers {
-    color: var(--cream);
-    text-align: center;
+  color: var(--lightblue);
+  text-align: center;
+  font-size: 4rem;
   }
 
 .cards{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh; /* To adjust the position of the cards on the section */
+  height: 60vh; /* To adjust the position of the cards on the section */
 }
 .tiltcard{
   width: 35vw;

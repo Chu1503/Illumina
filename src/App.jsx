@@ -1,12 +1,14 @@
 import './App.css';
-import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs, Navbar } from "./components"
+import { LandingPage, AboutIllumina, AboutIEI, Speakers, Timeline, Prizes, Sponsors, ContactUs, Navbar} from "./components"
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+// import ModelViewer from './components/ModelViewer/ModelViewer';
+
 // function App() {
 //   return (
 //     <div className='AllComponenets'>
 //     <LandingPage />
 //     <AboutIllumina />
-//     <AboutIEI />
+//     <AboutIEI />S
 //     <Speakers />
 //     <Timeline />
 //     <Prizes />
@@ -18,7 +20,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 // export default App;
 function App() {
   return (
-    <div className="App">
+    <div className="AllComponents">
       <Parallax pages={9} style={{ top: '0', left: '0' }} class="animation">
 
         <Navbar></Navbar>
@@ -54,7 +56,17 @@ function App() {
           <div class="animation_layer parallax" id="treesF"></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0}>
+        <LandingPage />
+        <AboutIllumina />
+        <AboutIEI />
+        <Speakers />
+        <Timeline />
+        <Prizes />
+        <Sponsors />
+        <ContactUs />
+        {/* <ModelViewer /> */}
+
+        {/* <ParallaxLayer offset={1} speed={0}>
           <AboutIllumina />
         </ParallaxLayer>
 
@@ -80,9 +92,10 @@ function App() {
 
         <ParallaxLayer offset={7} speed={0}>
           <ContactUs />
-        </ParallaxLayer>
+        </ParallaxLayer> */}
 
-      </Parallax>
+</Parallax>
+      
     </div>
   );
 }

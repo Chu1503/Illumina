@@ -1,7 +1,5 @@
 .timeline {
-  min-height: 100vh;
-  width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   width: 100%;
   background-image: url('../../assets/timeline.png');
   background-size: cover;
@@ -9,6 +7,7 @@
 }
 
 .title-timeline {
-    color: var(--cream);
-    text-align: center;
+  color: var(--lightblue);
+  text-align: center;
+  font-size: 4rem;
   }

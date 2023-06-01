@@ -24,14 +24,11 @@ const AboutIEI = () => {
       </div>
       <div className='content-about-iei'>
         <p>
-        The Institution of Engineers (India) is a non-profit national organisation that was founded in 1920. 
-        Our objective is to effectively enhance engineering, engineering sciences, and technology, as well as their applications, 
-        in India. We are dedicated to increasing technological knowledge, skill, and ability among our members and the broader public.
-        As the world's largest professional association of engineers, IE(I) implements cutting-edge tactics to advance causes such 
-        as sustainable development.In VIT, the IE(I) student chapter acts as the forum for technical and non-technical development 
-        and achievements.
-        The broad reach of IE(I) VIT enables it to reach a large and diverse audience and to hold a variety of technical events 
-        and activities on a regular basis, including skill-building workshops, ideation events, and hackathons.
+          The Institution of Engineers (India) is a prestigious non-profit organization established in 1920. 
+          Our mission is to advance engineering, technology, and their practical applications. 
+          As the world's largest professional association of engineers, we employ innovative strategies
+          to promote sustainable development. At VIT, our IE(I) student chapter serves as a platform 
+          for comprehensive technical and non-technical growth, organizing diverse events and activities.
         </p>
       </div>
       </div>

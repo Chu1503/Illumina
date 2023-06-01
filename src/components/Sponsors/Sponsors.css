@@ -1,5 +1,5 @@
 .sponsors {
-  height: 100vh;
+  min-height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,8 +7,9 @@
 }
 
 .title-sponsors {
-    color: var(--cream);
-    text-align: center;
+  color: var(--lightblue);
+  text-align: center;
+  font-size: 4rem;
   }
 
 .sponsor-cards{
@@ -16,7 +17,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 80vh; /* To adjust the position of the cards on the section */
+  height: 40vh; /* To adjust the position of the cards on the section */
 }
 
 .sponsor-tilt {

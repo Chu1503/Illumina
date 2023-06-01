@@ -1,11 +1,12 @@
 .aboutIllumina {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
 }
 
 .title-about-illumina {
-    color: var(--cream);
+    color: var(--lightblue);
     text-align: center;
+    font-size: 4rem;
   }
 
 .Logo{
@@ -18,5 +19,21 @@
   color: var(--cream);
   text-align: justify;
   justify-content: center;
-  font-size: x-large;
+  font-size: 1rem;
+  padding-left: 150px;
+  padding-right: 150px;
+  letter-spacing: 0.15rem;
+  line-height: 2;
+}
+
+@media screen and (max-width: 426px) {
+  .title-about-illumina {
+    font-size: 3rem; /* Adjust the font size as needed */
+  }
+
+  .content-about-illumina {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }

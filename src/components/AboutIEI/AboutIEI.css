@@ -1,11 +1,13 @@
 .aboutIEI {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
+  
 }
 
 .title-about-iei {
-    color: var(--cream);
-    text-align: center;
+  color: var(--lightblue);
+  text-align: center;
+  font-size: 4rem;
   }
 
 .content-about-iei{
@@ -13,7 +15,11 @@
   color: var(--cream);
   text-align: justify;
   justify-content: center;
-  font-size: x-large;
+  font-size: large;
+  padding-left: 150px;
+  padding-right: 150px;
+  letter-spacing: 0.15rem;
+  line-height: 2;
 }
 
 .container{
@@ -22,4 +28,16 @@
   justify-content: center;
   width: 100vw;
   height: 50vh;
+}
+
+@media screen and (max-width: 426px) {
+  .title-about-iei {
+    font-size: 3rem; /* Adjust the font size as needed */
+  }
+
+  .content-about-iei {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
