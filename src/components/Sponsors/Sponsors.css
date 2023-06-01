@@ -17,6 +17,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 2vw;
   height: 40vh; /* To adjust the position of the cards on the section */
 }
 
@@ -26,6 +27,8 @@
   background: #a2229d50;
   margin: 0 20px;
   border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
 }
 
 #yoode{
