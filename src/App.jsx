@@ -25,6 +25,10 @@ function App() {
 
         <Navbar></Navbar>
 
+        <div className='title'>
+          <h1 id='title-text'>ILLUMINA</h1>
+        </div>
+
         <ParallaxLayer offset={0} speed={0.01}>
           <div class="animation_layer parallax" id="auroraB"></div>
         </ParallaxLayer>

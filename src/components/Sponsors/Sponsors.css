@@ -48,3 +48,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#aromas{
+  background-image: url(../../assets/aromas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

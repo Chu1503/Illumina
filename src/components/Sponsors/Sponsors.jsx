@@ -20,7 +20,7 @@ const Sponsors = () => {
         <div className="sponsor-cards">
           <div className="sponsor-tilt" id='orom' data-tilt data-tilt-glare></div>
           <div className="sponsor-tilt" id='yoode' data-tilt data-tilt-glare></div>
-          <div className="sponsor-tilt" id='aroma' data-tilt data-tilt-glare></div>
+          <div className="sponsor-tilt" id='aromas' data-tilt data-tilt-glare></div>
           <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
         </div>
       </div>

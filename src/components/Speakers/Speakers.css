@@ -18,10 +18,22 @@
   height: 60vh; /* To adjust the position of the cards on the section */
 }
 .tiltcard{
-  width: 35vw;
+  width: 25vw;
   height: 50vh;
   background: rgba(255,255,255,0.25);
   margin: 0 20px;
   border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+#speaker1{
+  background-image: url(../../assets/speaker1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#speaker2{
+  background-image: url(../../assets/speaker2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

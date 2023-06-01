@@ -54,3 +54,21 @@
 #treesF {
     background-image: url(./assets/TreesF.png);
 }
+
+.title{
+    color: var(--cream);
+    text-align:center;
+    text-justify:auto;
+    text-shadow: none;
+}
+
+#title-text{
+    position: right;
+    font-size:7rem;
+    font-weight:700;
+    color: cornsilk;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+}
+
