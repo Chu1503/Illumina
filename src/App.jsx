@@ -52,8 +52,6 @@ function App() {
         </ParallaxLayer>
         </div>
         </div>
-        
-
         <LandingPage />
         <AboutIllumina />
         <AboutIEI />
@@ -61,10 +59,10 @@ function App() {
         <Timeline />
         <Prizes />
         <Sponsors />
+        {/* <Updates /> */}
         <ContactUs />
+      </Parallax>
 
-</Parallax>
-      
     </div>
   );
 }

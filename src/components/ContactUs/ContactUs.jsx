@@ -3,7 +3,7 @@ import "./ContactUs.css"
 
 const ContactUs = () => {
   return (
-    <header>
+    <footer>
     <div className='contactUs'>
         {/* <h1 className='title-contact-us'>Reach Out To Us!</h1> */}
         <div className="links">
@@ -16,7 +16,7 @@ const ContactUs = () => {
           <a href="https://www.ieindia.org/webui/iei-home.aspx" target="_blank" rel="noopener noreferrer" class="right-image"></a>
         </div>
     </div>
-  </header>
+  </footer>
   )
 }
 

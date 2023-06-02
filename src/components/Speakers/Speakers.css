@@ -39,6 +39,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+#speaker3{
+  background-image: url(../../assets/speaker2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* MEDIA SCREEN */
 

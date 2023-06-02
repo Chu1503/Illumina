@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.title-sponsors {
+.title-sponsors, .updates {
   color: var(--lightblue);
   text-align: center;
   font-size: 4rem;
@@ -72,12 +72,16 @@
     margin-bottom: 100px;
   }
   
-  .title-sponsors {
+  .title-sponsors, .updates {
     color: var(--lightblue);
     text-align: center;
     /*font-size: 3.25rem;*/
     font-size: 275%;
     }
+
+  .updates{
+    padding-top: 100px;
+  }
   
   .sponsor-cards{
     display: grid;

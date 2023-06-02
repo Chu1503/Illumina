@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Sponsors.css';
+import CountdownTimer from './CountdownTimer';
 
 const Sponsors = () => {
   useEffect(() => {
@@ -22,6 +23,11 @@ const Sponsors = () => {
           <div className="sponsor-tilt" id='yoode' data-tilt data-tilt-glare></div>
           <div className="sponsor-tilt" id='aromas' data-tilt data-tilt-glare></div>
           <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
+        </div>
+        <br></br><br></br><br></br>
+        <div className="updates">
+          <div className="h1">LIVE UPDATES</div>
+          <CountdownTimer />
         </div>
       </div>
     </header>

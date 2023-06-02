@@ -20,6 +20,7 @@ const Speakers = () => {
         <div className='cards'>
           <div className='tiltcard' id='speaker1' data-tilt data-tilt-glare data-tilt-max="10"></div>
           <div className='tiltcard' id='speaker2' data-tilt data-tilt-glare data-tilt-max="10"></div>
+          <div className='tiltcard' id='speaker' data-tilt data-tilt-glare data-tilt-max="10"></div>
         </div>
       </div>
     </header>
