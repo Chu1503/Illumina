@@ -119,8 +119,12 @@ img{
     align-items: center;
     text-align: center;
     color: var(--cream);
-    font-size: small;
+    font-size: medium;
   }
-
+  .prize-text-3{
+    text-align: center;
+    width: auto;
+    /*margin: 0px 10px 0px 0px;*/
+    padding-right: 10px;
+  }
 }
-

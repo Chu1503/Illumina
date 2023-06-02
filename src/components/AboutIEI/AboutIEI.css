@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 426px) {
   .aboutIEI {
-    min-height: 115vh;
+    min-height: 50vh;
   }
 
   .title-about-iei {
@@ -44,4 +44,12 @@
     padding-left: 12px;
     padding-right: 2px;
   }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:30vh;
+  }
+  
 }
