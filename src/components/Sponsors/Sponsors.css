@@ -23,7 +23,6 @@
   justify-content: center;
   gap: 2vw;
   height: 40vh; /* To adjust the position of the cards on the section */
-  cursor: pointer;
 }
 
 .sponsor-tilt {
@@ -41,6 +40,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 #skill-vertex{
@@ -48,6 +48,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 #orom{
@@ -55,6 +56,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 #aromas{

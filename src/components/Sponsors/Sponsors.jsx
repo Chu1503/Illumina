@@ -19,10 +19,16 @@ const Sponsors = () => {
       <div className='sponsors'>
         <h1 className='title-sponsors'>SPONSORS</h1>
         <div className="sponsor-cards">
+        <a href="https://www.linkedin.com/company/oromcorp/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" class="speaker1">
           <div className="sponsor-tilt" id='orom' data-tilt data-tilt-glare></div>
+        </a>
+        <a href="https://yoode.com/" target="_blank" rel="noopener noreferrer" class="speaker1">
           <div className="sponsor-tilt" id='yoode' data-tilt data-tilt-glare></div>
+        </a>
           <div className="sponsor-tilt" id='aromas' data-tilt data-tilt-glare></div>
+        <a href="https://www.skillvertex.com/" target="_blank" rel="noopener noreferrer" class="speaker1">
           <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
+        </a>
         </div>
         <div className="updates">
           <div className="h1">LIVE UPDATES</div>
