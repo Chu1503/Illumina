@@ -4,7 +4,7 @@
 }
 
 @media only screen and (max-width: 468px) {
-    .title-countdown, .timer {
-        font-size: 2rem;
+    .title-countdown {
+        font-size: 1.5rem;
     }
 }

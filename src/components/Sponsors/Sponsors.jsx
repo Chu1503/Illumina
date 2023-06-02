@@ -24,7 +24,6 @@ const Sponsors = () => {
           <div className="sponsor-tilt" id='aromas' data-tilt data-tilt-glare></div>
           <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
         </div>
-        <br></br><br></br><br></br>
         <div className="updates">
           <div className="h1">LIVE UPDATES</div>
           <CountdownTimer />

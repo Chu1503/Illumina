@@ -12,6 +12,10 @@
   font-size: 4rem;
   }
 
+.updates{
+  padding-top: 10vh;
+}
+
 .sponsor-cards{
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +84,7 @@
     }
 
   .updates{
-    padding-top: 100px;
+    padding-top: 30vh;
   }
   
   .sponsor-cards{
@@ -132,4 +136,11 @@
     transform-style: preserve-3d;
     box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.8);
   }
+}
+
+@media only screen and (max-width: 321px) {
+  .updates{
+    padding-top: 15vh;
+  }
+
 }
