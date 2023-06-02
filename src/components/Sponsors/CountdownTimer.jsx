@@ -23,8 +23,8 @@ const CountdownTimer = () => {
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Format the countdown string
-      const countdownString = `${hours}h ${minutes}m ${seconds}s`;
-      // const countdownString = `${minutes}m ${seconds}s`;
+      // const countdownString = `${hours}h ${minutes}m ${seconds}s`;
+      const countdownString = `${minutes}m ${seconds}s`;
 
       // Update the countdown state
       setCountdown(countdownString);
