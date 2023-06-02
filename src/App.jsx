@@ -5,16 +5,19 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 function App() {
   return (
     <div className="AllComponents">
-      <Parallax pages={8} style={{ top: '0', left: '0' }} class="animation">
+      <Parallax pages={8} style={{ top: '0', left: '0' }} className="animation">
 
-        <Navbar></Navbar>
+        {/* NAVBAR GOES HERE */}
 
-        <div className='title'>
-          <h1 id='title-text'>ILLUMINA</h1>
-          <a href="https://illumina23.devpost.com/" target="_blank" rel="noopener noreferrer" class="register">
-            <button className='curved-button'>Register Now</button>
-          </a>
-        </div>
+        <div className="topSection">
+          <div className="background-div"></div>
+          <div className="parallax-layers-container">
+            <div className='title'>
+              <h1 id='title-text'>ILLUMINA</h1>
+              <a href="https://illumina23.devpost.com/" target="_blank" rel="noopener noreferrer" className="register">
+                <button className='curved-button'>Register Now</button>
+              </a>
+            </div>
         
 
         <ParallaxLayer offset={0} speed={0.01}>
@@ -47,6 +50,9 @@ function App() {
         <ParallaxLayer offset={0} speed={0.36}>
           <div class="animation_layer parallax" id="treesF"></div>
         </ParallaxLayer>
+        </div>
+        </div>
+        
 
         <LandingPage />
         <AboutIllumina />
@@ -56,35 +62,6 @@ function App() {
         <Prizes />
         <Sponsors />
         <ContactUs />
-        {/* <ModelViewer /> */}
-
-        {/* <ParallaxLayer offset={1} speed={0}>
-          <AboutIllumina />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={2} speed={0}>
-          <AboutIEI />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3} speed={0}>
-          <Speakers />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={4} speed={0}>
-          <Timeline />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={5} speed={0}>
-          <Prizes />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={6} speed={0}>
-          <Sponsors />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={7} speed={0}>
-          <ContactUs />
-        </ParallaxLayer> */}
 
 </Parallax>
       

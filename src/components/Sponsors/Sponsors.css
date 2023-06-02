@@ -64,7 +64,7 @@
 
 @media only screen and (max-width: 468px) {
   .sponsors {
-    min-height: 40vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -123,5 +123,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .sponsor-tilt {
+    transform-style: preserve-3d;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.8);
   }
 }

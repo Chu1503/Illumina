@@ -81,9 +81,25 @@
 /* MEDIA SCREEN */
 
 @media only screen and (max-width: 468px) {
-    .title-contact-us{
-        color: var(--lightblue);
-        text-align: center;
-        font-size: 275%;
-        }
-      }
+  .links{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-image,
+  .right-image {
+    margin-bottom: 10px;
+  }
+
+  .social a {
+    width: 20px;
+    height: 20px;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook {
+    width: 20px;
+    height: 20px;
+  }
+}

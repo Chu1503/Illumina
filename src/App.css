@@ -11,6 +11,25 @@
 	z-index: 10;
 }
 
+.topSection {
+    position: relative;
+  }
+
+  .background-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+  }
+
+  .parallax-layers-container {
+    position: relative;
+    z-index: 2;
+  }
+
 .animation_layer {
 	background-position: center;
 	background-size: cover;
@@ -109,7 +128,21 @@
     #title-text{
         font-size: 17vw;
     }
-    .animation_layer {
-        background-color: aqua;
+    .animation_layer.parallax{
+        visibility: hidden;
     }
+    .background-div{
+        min-height: 90vh;
+        background-image: url(/src/assets/landingpagevertical.png);
+        background-size: cover;
+    }
+    #auroraB, #front6, #front5, #front4, #front3, #front2, #front1, #treesF {
+        visibility: hidden;
+    }
+    .curved-button {
+        font-size: 4vw;
   }
+  #title-text {
+    margin-bottom: 0px;
+  }
+}
