@@ -15,7 +15,7 @@ function App() {
             <div className='title'>
               <h1 id='title-text'>ILLUMINA</h1>
               <a href="https://illumina23.devpost.com/" target="_blank" rel="noopener noreferrer" className="register">
-                <button className='curved-button'>Register Now</button>
+                <button className='curved-button'>Hack Live!</button>
               </a>
             </div>
         
