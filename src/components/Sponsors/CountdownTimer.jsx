@@ -6,7 +6,7 @@ const CountdownTimer = () => {
 
   useEffect(() => {
     // Set the target date and time for the countdown
-    const targetDate = new Date('2023-06-02T18:30:00').getTime();
+    const targetDate = new Date('2023-06-02T22:00:00').getTime();
 
     // Update the countdown every second
     const interval = setInterval(() => {
@@ -42,7 +42,7 @@ const CountdownTimer = () => {
 
   return (
     <div className='timer'>
-      <h1 className='title-countdown'>Speaker Session in:
+      <h1 className='title-countdown'>Review 1 in:
       <p className='countdown'>{countdown}</p>
       </h1>
     </div>
