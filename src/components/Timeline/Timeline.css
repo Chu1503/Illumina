@@ -15,8 +15,8 @@
 
   @media screen and (max-width: 426px) {
     .timeline {
-      min-height: 115vh;
-      background-image: url(../../assets/timelinevert.png);
+      min-height: 125vh;
+      background-image: url(../../assets/newnewtimeline.png);
       background-size: 150vw;
     }
 
