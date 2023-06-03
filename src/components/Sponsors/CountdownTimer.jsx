@@ -42,7 +42,7 @@ const CountdownTimer = () => {
 
   return (
     <div className='timer'>
-      <h1 className='title-countdown'>Review 2 in:
+      <h1 className='title-countdown'>Final Pitches Round
       <p className='countdown'>{countdown}</p>
       </h1>
     </div>
