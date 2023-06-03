@@ -6,7 +6,7 @@ const CountdownTimer = () => {
 
   useEffect(() => {
     // Set the target date and time for the countdown
-    const targetDate = new Date('2023-06-03T10:00:00').getTime();
+    const targetDate = new Date('2023-06-03T17:51:00').getTime();
 
     // Update the countdown every second
     const interval = setInterval(() => {
@@ -23,8 +23,8 @@ const CountdownTimer = () => {
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Format the countdown string
-      const countdownString = `${hours}h ${minutes}m ${seconds}s`;
-      // const countdownString = `${minutes}m ${seconds}s`;
+      // const countdownString = `${hours}h ${minutes}m ${seconds}s`;
+      const countdownString = `${minutes}m ${seconds}s`;
 
       // Update the countdown state
       setCountdown(countdownString);
@@ -42,7 +42,7 @@ const CountdownTimer = () => {
 
   return (
     <div className='timer'>
-      <h1 className='title-countdown'>Final Pitches Round
+      <h1 className='title-countdown'>Final Pitches in:
       <p className='countdown'>{countdown}</p>
       </h1>
     </div>
