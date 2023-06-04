@@ -30,10 +30,10 @@ const Sponsors = () => {
           <div className="sponsor-tilt" id='skill-vertex'  data-tilt data-tilt-glare></div>
         </a>
         </div>
-        <div className="updates">
+        {/* <div className="updates">
           <div className="h1">LIVE UPDATES</div>
           <CountdownTimer />
-        </div>
+        </div> */}
       </div>
     </header>
   );
